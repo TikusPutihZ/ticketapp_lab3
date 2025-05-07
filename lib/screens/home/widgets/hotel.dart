@@ -27,9 +27,7 @@ class Hotel extends StatelessWidget {
               borderRadius: BorderRadius.circular(12),
               image: DecorationImage(
                 fit: BoxFit.cover,
-                image: AssetImage(
-                  "assets/images/${hotel["image"]}",
-                  ),
+                image: AssetImage("assets/images/${hotel["image"]}"),
               ),
             ),
           ),
@@ -55,7 +53,7 @@ class Hotel extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 15),
             child: Text(
-              "\$${hotel["price"]}/night",  
+              "\$${hotel["price"]}/night",
               style: AppStyles.headLineStyle1.copyWith(
                 color: AppStyles.kakiColor,
               ),
