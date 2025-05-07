@@ -114,6 +114,26 @@ class TicketPromotion extends StatelessWidget {
                       color: Colors.white,
                     ),
                   ),
+                  SizedBox(height: 16),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        "😍",
+                        style: TextStyle(fontSize: 30),
+                      ),
+                      SizedBox(width: 5),
+                      Text(
+                        "🥰",
+                        style: TextStyle(fontSize: 50),
+                      ),
+                      SizedBox(width: 5),
+                      Text(
+                        "😘",
+                        style: TextStyle(fontSize: 30),
+                      ),
+                    ],
+                  )
                 ],
               ),
             ),
